@@ -14,7 +14,7 @@
 
 
 #Postgres volumes
-./project/db-data/.*
+./project/db-data/
 # Test binary, built with `go test -c`
 *.test
 
