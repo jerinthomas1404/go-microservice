@@ -8,6 +8,13 @@
 *.so
 *.dylib
 
+#Binaries for each service
+./broker-service/brokerApp
+./authentication-service/authApp
+
+
+#Postgres volumes
+./project/db-data/*
 # Test binary, built with `go test -c`
 *.test
 
