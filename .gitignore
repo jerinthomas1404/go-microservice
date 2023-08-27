@@ -9,12 +9,13 @@
 *.dylib
 
 #Binaries for each service
-./broker-service/brokerApp
-./authentication-service/authApp
-
+authentication-service/authApp
+broker-service/brokerApp
 
 #Postgres volumes
-./project/db-data/
+
+project/db-data/
+
 # Test binary, built with `go test -c`
 *.test
 
