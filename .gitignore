@@ -11,9 +11,9 @@
 #Binaries for each service
 authentication-service/authApp
 broker-service/brokerApp
+logger-service/loggerServiceApp
 
 #Postgres volumes
-
 project/db-data/
 
 # Test binary, built with `go test -c`
