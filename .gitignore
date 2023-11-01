@@ -12,6 +12,8 @@
 authentication-service/authApp
 broker-service/brokerApp
 logger-service/loggerServiceApp
+front-end/frontApp
+mail-service/mailerApp
 
 #Postgres volumes
 project/db-data/
