@@ -3,6 +3,7 @@ BROKER_BINARY=brokerApp
 AUTH_BINARY=authApp
 LOGGER_BINARY=loggerServiceApp
 MAIL_BINARY=mailerApp
+
 ## up: starts all containers in the background without forcing build
 up:
 	@echo "Starting Docker images..."
